@@ -1,6 +1,5 @@
 import random 
 
-#สุ่มเลข
 
 secret  =  random.randint(1,10)
 
@@ -17,5 +16,7 @@ while True:
         break # ถ้ามันถูกจะออกจาก loop ทันที
     else:
         print("ผิดลองใหม่")
+
+
 
     
