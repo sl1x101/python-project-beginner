@@ -1,6 +1,5 @@
 import random 
 
-
 secret  =  random.randint(1,10)
 
 while True:
@@ -10,6 +9,11 @@ while True:
     if guess == 0 :
         print("หยุดท้ายเลข")
         break
+    #condition check hight to low if 
+    if guess  > secret:
+        print ("Hight")
+    elif guess < secret :
+        print("Low")
 
     if guess == secret:
         print("ยินดีด้วยคุณท้ายถูก: ")
